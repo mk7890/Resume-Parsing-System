@@ -14,15 +14,15 @@ Project Breakdown & Approach
 - Save the cleaned data as a new dataset
   
 ## 4. Named Entity Recognition (NER) Model for Feature Extraction
-- Build an NLP-based Resume Parsing Model using: spaCy (NER for extracting applicant details) BERT / Flair for advanced entity recognition 
+- Build an NLP-based Resume Parsing Model using: spaCy (NER for extracting applicant details) BERT for advanced entity recognition 
 - Extract all key details ('Applicant Name', 'Job Role', 'Phone', 'Email', 'Companies Worked For',
        'Years of Work Experience', 'Skills', 'Referees', 'LinkedIn Profile',
        'Certifications', 'Education Background', 'Education Institutions')
   
 ## 5. Resume Classification (Job Role Prediction)
 - Train a Resume Classifier Model Choices: RandomForestClassifier, XGBoost, or BERT Input Features: Extracted text features (TF-IDF, Word Embeddings) Target Variable: Job roles
-- Save the model using joblib or pickle
-- 
+- Save the model
+  
 ## 6. Resume Rating (Matching with Job Description)
 - Compare extracted resume skills & experience with job descriptions 
 - Use TF-IDF + Cosine Similarity to compute a matching score 
