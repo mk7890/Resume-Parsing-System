@@ -19,11 +19,8 @@ Project Breakdown & Approach
        'Years of Work Experience', 'Skills', 'Referees', 'LinkedIn Profile',
        'Certifications', 'Education Background', 'Education Institutions')
   
-## 5. Resume Classification (Job Role Prediction)
-- Train a Resume Classifier Model Choices: RandomForestClassifier, XGBoost, or BERT Input Features: Extracted text features (TF-IDF, Word Embeddings) Target Variable: Job roles
-- Save the model
   
-## 6. Resume Rating (Matching with Job Description)
+## 5. Resume Rating (Matching with Job Description)
 - Compare extracted resume skills & experience with job descriptions 
 - Use TF-IDF + Cosine Similarity to compute a matching score 
 - Highlight missing keywords and suggest improvements
