@@ -23,5 +23,5 @@ Project Breakdown & Approach
 ## 5. Resume Rating (Matching with Job Description)
 - Compare extracted resume skills & experience with job descriptions 
 - Use TF-IDF + Cosine Similarity to compute a matching score 
-- Highlight missing keywords and suggest improvements
+
 
