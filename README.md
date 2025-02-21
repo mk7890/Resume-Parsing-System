@@ -1,6 +1,10 @@
 # Resume-Parsing-System
 
-The system will include text extraction, entity recognition, data cleaning, synthetic data generation, classification, CV rating, and chatbot-based CV improvement.
+# Project Goal: 
+
+Develop robust resume parser system that can accurately extract key details like skills, experience, etc,
+and rank CVs making hiring faster and more data-driven.
+
 Project Breakdown & Approach
 
 ## 1. Load and Process Resumes (PDF Dataset)
