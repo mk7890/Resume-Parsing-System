@@ -1,6 +1,6 @@
 # Resume-Parsing-System
 
-# Project Goal: 
+# Project Goal
 
 Develop robust resume parser system that can accurately extract key details like skills, experience, etc,
 and rank CVs making hiring faster and more data-driven.
