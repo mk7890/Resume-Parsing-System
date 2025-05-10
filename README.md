@@ -53,12 +53,34 @@ I – denotes and intermediate/inside entitiy ( continuation of the named entity
 O – denotes and outside entity or no entity.
 5.	Assigning Labels(numerical integers) and IDs(integers) to entity columns.
 6.	Splitting the data into train, validation and test sets.
+
+*************************************************************************************************************************************************************************************************************
  	
 # Modeling
 
 A BERT (DistilBERT) model is used. BERT stands for Bidirectional Encoding Representations from Transformers. It’s a power model suitable for Natural Language Processing tasks because its able to understand context and semantics by learning both left to right and right to left.
 Fine tuning is done by using the prepared dataset for custom Named Entity Recognition to learn to predict entities such as job roles and skills when fed text from a resume or job description.
 
+Model Fine-Tuning Pipeline
+
+![ChatGPT Image May 9, 2025, 07_31_20 PM](https://github.com/user-attachments/assets/ae01d298-683c-472c-90c6-19fa3cd8064e)
+
+Token Embeddings Pipeline
+
+![ChatGPT Image May 9, 2025, 07_41_14 PM](https://github.com/user-attachments/assets/0a6a58cf-ec0f-456f-ba89-8dae0db529c4)
+
 # Model Evaluation
 
 Evaluation is through F1 Score, Precision, Recall and Accuracy.
+
+![final classification report](https://github.com/user-attachments/assets/5b2de0fc-601f-4d86-bdda-263e606060ca)
+
+## Confusion Matrix
+
+![Confussion matrix](https://github.com/user-attachments/assets/e4a26e63-0165-40a2-b9db-9415083622ab)
+
+# Deployment
+
+I deployed the model as a streamlit web application
+
+![streamlit 01](https://github.com/user-attachments/assets/28954b81-442c-4598-ba02-d9c57bc70152)
